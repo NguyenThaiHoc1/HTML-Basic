@@ -1,0 +1,552 @@
+.wrapper{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+footer .f_cols ul.sm li a,
+header nav ul li a,
+footer a:hover{
+    transition:all .2s linear;
+    -webkit-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+    -o-transition:all .2s linear;
+}
+
+/*  Header  */
+header.trasparent_navigation{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, .5);
+    border-bottom: 1px rgba(255, 255, 255, .3) solid;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 9999;
+}
+
+
+header.trasparent_navigation .logo,
+header.fixed_nav .logo{
+    float: left;
+    margin-top: 30px;
+}
+
+header.fixed_nav .logo{
+    margin-top: 27px;
+}
+
+header.trasparent_navigation nav,
+header.fixed_nav nav{
+    float: right;
+    margin-top: 40px;
+}
+
+header.fixed_nav nav{
+    margin-top: 32px;
+}
+
+header.trasparent_navigation nav ul,
+header.fixed_nav nav ul{
+    list-style: none;
+}
+
+header.trasparent_navigation nav ul li,
+header.fixed_nav nav ul li{
+    float: left;
+    margin-left: 50px;
+}
+
+header.trasparent_navigation nav ul li:first-child,
+header.fixed_nav nav ul li:first-child{
+    margin-left: 0;
+}
+
+header.trasparent_navigation nav ul li a,
+header.fixed_nav nav ul li a{
+    text-decoration: none;
+    color: #454545;
+    font-family: 'open_regular', arial;
+    font-size: 16px;
+}
+
+header.trasparent_navigation nav ul li a:hover,
+header.fixed_nav nav ul li a:hover{
+    color: #e61c42;
+}
+
+header.fixed_nav nav ul li a{
+    font-size: 14px;
+}
+
+
+header.fixed_nav{
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f1f1f1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    margin-top: -81px;
+}
+
+
+
+
+/* BillBoard */
+.billboard {
+    width: 1250px;
+    height: auto;
+    display: inline-block;
+    vertical-align:top;
+}
+
+
+.abc{
+    width: 1250px;
+    height: auto;
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/*Section 1*/
+.Introduction {
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.Introduction p{
+
+    display: inline-block;
+    font-family: 'open_regular', arial;
+    font-size: 20px;
+    margin: 35px 0 0 40px;
+    letter-spacing: 1px;
+    /*display: inline-block; /*Cai nay cho phep thanh phan ben trong xuat hien ben tren chi 1 hang*/
+    /*font-family: 'open_regular', arial ;
+    font-size: 20px;
+    margin: 35px 0 0 40px*/
+    /*top right bottom left*/
+}
+
+.Introduction a {
+    float: right;
+    padding: 17px 60px;
+    text-decoration: none;
+    font-family: 'open_regular', arial;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 20px 40px 0 0;
+} 
+
+
+.Buttonlink {
+    background-color: rgba(255,255,255,.8);
+    margin-top: -90px;
+}
+
+.Buttonlink p{
+    color: #454545;
+}
+
+.Buttonlink a{
+    background: #e61c42;
+    color: #fff;
+}
+
+
+.Service {
+    padding: 100px;
+    background: #fbfbfb;
+}
+
+.Service h2 {
+    color: #808080;
+    font-family: 'open_regular', arial;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold; 
+    text-align: center; /*Cho đoạn text mà bạn đang xét ra giữa màn hình*/
+}
+
+.Service div {
+    margin: 20px 140px 20px 150px;
+}
+
+.Service ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+.Service ul li{
+    float: left;
+    display: block;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.Service ul .l1 {
+    margin-left: 240px;
+    margin-right: 200px;
+}
+
+.Service ul li:last-child {
+  margin-left: 20px;
+}
+
+/*Slider*/
+body {
+  font-family: 'Roboto', sans-serif;
+  background:;
+  position: relative;
+  font-weight:400px;
+}
+#slider {
+  height: 350px;
+  background-color: #F0FFF0;
+  padding-bottom: 100px;
+}
+
+.carousel-indicators li {
+  background: #C4C4BE;
+}
+
+.carousel-indicators li.active {
+      background: #FE980F;
+}
+
+.item {
+  padding-left: 100px;
+}
+
+
+.pricing {
+  position: absolute;
+  right: 40%;
+  top: 52%;
+}
+
+.girl {
+  margin-left: 0;
+}
+
+.item h1 {
+  color: #B4B1AB;
+  font-family: abel;
+  font-size: 48px;
+  margin-top: 115px;
+}
+
+.item h1 span {
+    color:#FE980F;
+}
+
+.item h2 {
+  color: #363432;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 22px;
+  margin-top: 10px;
+}
+
+.item  p {
+    color:#363432;
+    font-size:16px;
+    font-weight:300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.get {
+  background: #FE980F;
+  border: 0 none;
+  border-radius: 0;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 23px;
+}
+
+/* Xet Img cho moi buc anh*/
+.carousel-inner .item .col-sm-6 img {
+  border-radius: 100px;
+  width: 400px;
+  height: 350px;
+  padding: 20px 20px;
+}
+.container {
+  margin-top: 10px;
+}
+
+.Info-author {
+  margin: 100px 0 20px 0;
+}
+/*Thong tin nguoi lam*/
+.Info-author h2{
+  text-align: center;
+  font-family: 'open_regular', arial;
+  font-size: 20px;
+  color: #808080;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Info-author ul{
+   margin: auto;
+   list-style: none;
+   overflow: hidden;
+   margin-top: 20px;
+}
+
+
+.Info-author ul {
+  width: 400px;
+  height: 0 auto;
+} 
+
+.Info-author ul li img.Avarta {
+  margin: auto;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -o-border-radius: 100px;
+  margin-bottom: 20px;
+  margin-left: 150px;
+  width: 100px;
+  height: 100px;
+}
+
+.Info-author ul li {
+    float: left;
+    display: block;
+    width: 293px;
+    height: auto;
+} 
+
+.Info-author ul li h2 {
+   width: 400px;
+   height: auto;
+   color: #616161;
+   font-family: 'open_bold', arial;
+   font-size: 16px;
+   font-weight: bold;
+   letter-spacing: .5px;
+   text-align: center;
+}
+
+.Info-author ul li h2 span.ChucVu{
+    color: #756a6a;
+    font-family: 'open_regular', arial;
+    font-weight: normal;
+    font-size: 8px;
+}
+.Info-author ul li p{
+    width: 400px;
+    height: auto;
+    color: #747474;
+    font-family: 'open_regular', arial;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+/*Footer*/
+
+footer{
+    width: 100%;
+    height: 500px;
+    background: #353535;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+footer .cta_footer{
+    background-color: #434343;
+}
+
+footer .cta_footer p{
+    color: #ffffff;
+}
+
+footer .cta_footer a{
+    background: #e61c42;
+    color: #fff;
+}
+
+footer .footer_widget{
+    overflow: hidden;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px #434343 solid;
+}
+
+
+footer .f_cols{
+    display: block;
+    width: 270px;
+    height: auto;
+    float: left;
+    margin: 50px 50px 0 0;
+}
+
+/*Thang Cuoi Cung Trong Thanh Phan*/
+footer .f_cols:last-child{
+    margin-right: 0px;
+}
+footer .f_cols:first-child{
+  margin-left: 150px;
+
+}
+footer .f_cols h3{
+    color: #fff;
+    font-family: 'open_regular', arial;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+
+}
+
+footer .f_cols p{
+    font-family: 'open_regular', arial;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+footer .f_cols span.phone{
+    display: block;
+    font-family: 'open_bold', arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+footer .f_cols ul.sm{
+    list-style: none;
+    overflow: hidden;
+}
+
+footer .f_cols ul.sm li{
+    float: left;
+    margin-left: 10px;
+}
+
+footer .f_cols ul.sm li:first-child{
+    margin-left: 0;
+}
+
+footer .f_cols ul.sm li a{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url('../img/social.png') no-repeat;
+}
+
+footer .f_cols ul.sm li a.fb{
+    background-position: 0 0;
+}
+footer .f_cols ul.sm li a.twitter{
+    background-position: -26px 0;
+}
+footer .f_cols ul.sm li a.dribbble{
+    background-position: -52px 0;
+}
+
+footer .f_cols ul.sm li a:hover{
+    background: url('../img/social_hover.png') no-repeat;
+}
+
+footer .f_cols ul.sm li a.fb:hover{
+    background-position: 0 0;
+}
+footer .f_cols ul.sm li a.twitter:hover{
+    background-position: -26px 0;
+}
+footer .f_cols ul.sm li a.dribbble:hover{
+    background-position: -52px 0;
+}
+
+footer .f_cols a{
+    display: inline-block;
+    font-family: 'open_regular', arial;
+    color: #ffffff;
+}
+
+footer .f_cols a:hover{
+    color: #ffffff;
+}
+
+footer .f_cols ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+footer .f_cols ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'open_regular', arial;
+    font-family: 14px;
+}
+
+footer .f_cols ul li a:hover{
+    color: #e61c42;
+}
+
+
+p.rights{
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'open_regular', arial;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+p.rights a{
+    font-family: 'open_bold', arial;
+    font-weight: bold;
+}
+
+/*
+.item button:hover {
+  background: #FE980F;
+}
+
+.control-carousel {
+  position: absolute;
+  top: 50%;
+  font-size: 60px;
+  color: #C2C2C1;
+}
+
+.control-carousel:hover{
+  color: #FE980F ;
+}
+
+.right {
+  right: 0;
+}
+
+.category-products {
+  border: 1px solid #F7F7F0;
+  margin-bottom: 35px;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+*/
+
